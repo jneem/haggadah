@@ -1,0 +1,860 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{graphicx}
+\usepackage[letterpaper, margin=1.4in, top=0.8in, bottom=0.8in]{geometry}
+\usepackage{multicol}
+%\newfontfamily\hebrewfont[Script=Hebrew]{SBL Hebrew}% or{SBL Hebrew}
+\setmainlanguage{english}
+\setotherlanguage{hebrew}
+\newfontfamily\hebrewfont[Script=Hebrew]{Ezra SIL}
+%\setmainfont{Century Schoolbook L}
+%\setmainfont[Script=Hebrew]{Ezra SIL}
+%\usepackage[english,hebrew]{babel}
+
+% Use large fonts
+\setlength\abovecaptionskip{25pt}
+\setlength\belowcaptionskip{0pt}
+\setlength\abovedisplayskip{25pt plus 6pt minus 15pt}
+\setlength\abovedisplayshortskip{0pt plus 6pt}
+\setlength\belowdisplayshortskip{13pt plus 7pt minus 6pt}
+\setlength\belowdisplayskip\abovedisplayskip
+
+%\def\preLilyPondExample{\newline}
+% \vspace{0.1cm} \newline}
+%\def\postLilyPondExample{\newline \vspace{0.1cm} \newline}
+
+\renewcommand{\tiny}{\fontsize{8.6}{10}\selectfont}
+\renewcommand{\scriptsize}{\fontsize{8.6}{10}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{10}{12}\selectfont}
+\renewcommand{\small}{\fontsize{12}{14}\selectfont}
+\renewcommand{\normalsize}{\fontsize{14.4}{18}\selectfont}
+\renewcommand{\large}{\fontsize{17.28}{22}\selectfont}
+\renewcommand{\Large}{\fontsize{20.74}{25}\selectfont}
+\renewcommand{\LARGE}{\fontsize{24.88}{30}\selectfont}
+\renewcommand{\huge}{\fontsize{29.86}{37}\selectfont}
+\renewcommand{\Huge}{\fontsize{35.83}{45}\selectfont}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\normalsize
+
+% Start each section on a new page.
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
+
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{10em}
+\HRule \\[0.4cm]
+{ \Huge \bfseries Haggadah }\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+{ \large Edited by Miriam Blatt and Joe Neeman } \\[0.4cm]
+2015
+\end{center}
+\end{titlepage}
+
+{
+\setlength\parskip{-10pt}
+\addtocontents{toc}{\vspace{1em}}
+\small
+\tableofcontents
+}
+
+\section{Moment of silence}
+Let us begin with a few moments silence to think of our
+friends and family we would like to be here to share this
+seder with us, but who are too far away or no longer with us.
+
+\section{Candles}
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who gives us light. In commemoration of this wondrous act, we
+light candles on the Sabbath and all our festivals.
+\end{quote}
+
+\par\vspace{0.5cm}
+
+\lilypondfile{lhadleek.ly}
+
+(When the festival falls on Shabbat, sing the line in italics.)
+
+
+\section{Seder plate}
+\includegraphics[width=\textwidth]{sederplate}
+
+\section{The order of the service}
+
+\begin{center}
+\begin{tabular}{rcl}
+\texthebrew{קַדֵּש}ׁ& \textsc{Kadesh} & Recite Kiddush \\
+\texthebrew{וּרְחַץ} & \textsc{Ur'hatz} & Wash the hands \\
+\texthebrew{כַּרְפַּס} & \textsc{Karpas} & Dip the vegetables \\
+\texthebrew{יַחַץ} & \textsc{Yahatz} & Divide the matzah \\
+\texthebrew{מַגִּיד} & \textsc{Maggid} & Tell the Passover story \\
+\texthebrew{רָחְצָה} & \textsc{Rohtzah} & Wash the hands \\
+\texthebrew{מוֹצִיא} & \textsc{Motzi} & Recite the Motzi \\
+\texthebrew{מַצָּה} & \textsc{Matzah} & Eat the matzah \\
+\texthebrew{מָרוֹר} & \textsc{Maror} & Eat the maror \\
+\texthebrew{כּוֹרֵךְ} & \textsc{Korech} & Eat the Hillel sandwich \\
+\texthebrew{שֹֻׁלְחָן עוֹרֵךְ} & \textsc{Shulhan Orech} & Eat the festive meal \\
+\texthebrew{צָפוּן} & \textsc{Tzafun} & Eat the Afikoman \\
+\texthebrew{בָּרֵךְ} & \textsc{Barech} & Give thanks for the meal \\
+\texthebrew{הַלֵּל} & \textsc{Hallel} & Sing hymns of praise \\
+\texthebrew{נִרְצָה} & \textsc{Nirtzah} & Complete the seder
+\end{tabular}
+
+\vspace{5em}
+
+Ur'hatz washing the hands is in preparation for dipping the
+      karpas in salt water.
+
+Rohtzah washing the hands is in preparation for the meal,
+      and requires the traditional blessing for washing hands.
+\end{center}
+
+\section{Invocation}
+\begin{flushleft}
+Descendents of slaves \\
+We cannot fulfill tonight's obligation \\
+Through ritual alone. \\
+Reciting pious words \\
+And eating symbolic foods \\
+Will not suffice \\
+To honor the Passover. \\
+We are reminded this night \\
+That we cannot truly be free \\
+So long as others are enslaved.
+\end{flushleft}
+
+\section{Kiddush}
+(Don't drink the wine until after all three prayers!)
+
+\subsection*{Thanksgiving for the fruit of the vine}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe, who created
+the fruit of the vine.
+\end{quote}
+
+\par\vspace{0.5cm}
+
+\lilypondfile{wine.ly}
+
+\subsection*{Thanksgiving for Passover and other festivals}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who has chosen us from all nations for your service by blessing us with your
+commandments.
+
+You have given us holy days, seasons of joy and the festival of Passover.
+We join to remember our last night of slavery and our Exodus from Egypt.
+We give thanks to you, O Lord our God, who blesses Israel and her festivals.
+\end{quote}
+
+\newpage
+
+\begin{lilypond}
+\include "bachar_banu.ly"
+\end{lilypond}
+
+\newpage
+
+\subsection*{Thanksgiving for life}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who has given us life, sustained us, and enabled us to reach this season.
+\end{quote}
+
+\par\vspace{0.5cm}
+
+\lilypondfile{shehecheyanu_miriam.ly}
+
+
+\section{Drink first cup}
+Drink first cup while reclining.
+
+\section{Karpas -- Blessing for the green vegetable}
+
+We dip parsley, celery or lettuce in saltwater and
+recite the blessing:
+
+\begin{quote}
+Blessed are you, Lord our God, King of the Universe, who creates
+the fruit of the earth.
+\end{quote}
+
+\begin{quote}
+\texthebrew{
+בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הָאֲדָמָה.
+} 
+\end{quote}
+
+\begin{quote}
+\emph{
+Baruch atah adonai elohaynu melech ha'olam boray pree ha'adamah.
+}
+\end{quote}
+
+Why do we eat karpas?
+The parsley is to remind us of greens growing in the spring.
+We dip it in salt water to remind us of the tears that our
+ancestors shed during their time as slaves.
+
+\section{Divide the matzah}
+
+The leader breaks the middle matzah. The smaller part is
+returned to the middle. The larger part, the Afikoman, is wrapped
+and set aside to keep it safe from the children. It is needed
+at the end of the meal, when the children (if they hid it elsewhere)
+will exchange it for a gift.
+
+\par\vspace{5mm}
+
+The leader raises the matzah and says:
+
+\begin{quote}
+\begin{flushleft}
+This is the bread of poverty our forefathers ate in the land of Egypt. \\
+Let those who are hungry eat. \\
+Let those in need share our seder. \\
+\vspace{1em}
+This year we are slaves. \\
+This year there is war and oppression. \\
+Next year may we be free. \\
+Next year may the world be at peace,
+with freedom, justice and prosperity for all.
+\end{flushleft}
+\end{quote}
+
+\section{Dedication}
+Tonight's seder is dedicated to the dream and hope of freedom, the dream
+that has filled the hearts of humankind from the time our
+ancestors went forth from Egypt. Peoples have suffered and nations have struggled
+to make this dream come true. Now we rededicate ourselves to the struggle
+for freedom. Though the sacrifice be great and the hardships many, we
+will not rest until the chains that enslave all people have been broken.
+
+\section{The four questions}
+
+\begin{flushleft}
+Why is this night different from all other nights? \\
+On all other nights we eat either leavened bread or matzah; on this night only matzah. \\
+On all other nights we eat all kinds of herbs; on this night we especially eat
+bitter herbs. \\
+On all other nights we do not dip herbs at all; on this night we dip them twice. \\
+On all other nights, we eat in an ordinary manner; tonight we eat
+with special ceremony.
+\end{flushleft}
+
+\newpage
+
+\lilypondfile{ma_nishtana.ly}
+
+\section{Answers to the four questions}
+\subsection*{Why do we eat only matzah tonight?}
+When Pharaoh let our ancestors go from Egypt, they were forced to flee in
+great haste. With not a moment to spare, they snatched up the dough they
+had prepared and fled. The hot sun beat down as they carried the dough
+and baked it into a flat unleavened bread they called matzah.
+To remember this, we eat only matzah on Passover.
+
+\subsection*{Why do we eat bitter herbs on Passover night?}
+We eat maror to remind us how bitter our ancestors' lives were made
+by their enslavement in Egypt.
+
+\subsection*{Why do we dip twice tonight?}
+We dip karpas in salt water to remind us of greens growing in
+spring. We dip maror in sweet haroset as a sign of hope.
+Our ancestors were able to withstand the bitterness of slavery because
+it was sweetened by the hope of freedom.
+
+\subsection*{Why do we recline at the table?}
+Because reclining at the table was a sign of being a free person
+in ancient times.
+
+\section{The four children}
+The Torah speaks of four children. One is wise, one wicked, one simple,
+and one does not know how to ask a question.
+
+The \textbf{wise} child asks: ``What laws were given to us by God
+for Passover?'' Teach this child the customs and rituals of the
+festival, not only as tradition, but as symbols of the ideal of
+freedom for all people.
+
+The \textbf{wicked} child asks: ``What does the Seder mean to you?''
+By saying ``to you'' this child excludes themself. Reply that
+``It is because of what God did for me when I came out of
+Egypt.'' For me, not for you. The wicked child would not have
+been redeemed in Egypt.
+
+The \textbf{simple} child asks: ``What is this all about?''
+Answer: ``With a mighty hand God brought us forth from Egypt,
+out of the house of bondage.''
+
+For the child who does not know how to ask a question, say
+``This is because of what God did for us when we went forth from
+Egypt.''
+
+\section{The Passover story}
+We were slaves to Pharaoh in Egypt. The Lord our God delivered us with
+a mighty hand and an outstretched arm. Had he not brought our forefathers
+out of Egypt, then we, our children, and our children's children would
+still be slaves to Pharaoh's descendants.
+Therefore we must tell this story each year to remind us
+what freedom means and to strenghten our resolve to seek it for ourselves and
+for others.
+
+Here is the story:
+
+Jacob, grandson of Abraham, lived in the land of Canaan where there was
+severe famine. Jacob's son Joseph served the Pharaoh in Egypt and offered
+to help his family, so they all moved to Egypt. There they settled and grew
+to be a nation great, mighty and prosperous.
+
+A new Pharaoh came to power who did not remember Joseph. He feared the
+successful Israelites, and enslaved them to build pyramids, and ordered their
+male babies killed.
+
+Yocheved, rather than kill her baby Moses, put him in a basket to
+float down the river Nile. Her daughter Miriam, the sister of Moses,
+served the Pharaoh's daughter. Miriam rescued Moses who was adopted by
+Pharoah's daughter. Miriam recommended the hiring of her mother Yocheved
+to nurse Moses.
+
+Moses grew up in the palace, but fled after killing an Egyptian who had
+beaten an Israelite. God later ordered Moses to return and rescue his
+people, so he demanded their freedom from the Pharaoh, but the
+Pharaoh refused.
+
+God brought 10 plagues to Egypt. Only after the final one --
+death of the firstborn sons -- did Pharaoh relent. For the final plague,
+the houses of Israelites were ``passed over,'' hence the
+festival of Passover.
+
+The Pharaoh symbolizes all tyrants. We read the Passover story to
+remember every emancipation, and to look forward to a time when all
+the world will live in peace and freedom.
+
+\section{Plagues}
+In sympathy for the Egyptians whose death was the price of our
+freedom, we remove a drop of wine or juice from our cup by
+dipping a finger in and shaking it off onto a plate as each plague
+is named.
+
+\lilypondfile{dahm.ly}
+
+\section{Songs}
+\subsection*{Avadim Hayenu}
+We were slaves, now we are free.
+
+\lilypondfile{avadim_hayenu.ly}
+
+\subsection*{Baruch Hamakom}
+Blessed be the Lord, blessed is He, who gave the Torah to his people Israel.
+
+\lilypondfile{baruch_hamakom.ly}
+
+\subsection*{Vehi Sheamda}
+And this is what stood by our ancestors and us: every generation someone wants to annihilate us, but the Holy One saves us from them.
+
+\lilypondfile{vhee_sheamda.ly}
+
+\newpage
+\subsection*{Go down, Moses}
+\lilypondfile{go_down_moses.ly}
+
+\section{Dayenu}
+
+\begin{flushleft}
+How many acts of kindness God has performed for us!
+Had God brought us out of Egypt without carrying out judgements
+against the Egyptians,\\
+\textbf{Dayenu!} (it would have been enough)\\
+Had God carried out judgments against the Egyptians without
+vanquishing their Gods, \\
+\textbf{Dayenu!}\\
+Had God vanquished their Gods without dividing the sea for us, \\
+\textbf{Dayenu!}\\
+Had God divided the sea for us without leading us across on dry land,\\
+\textbf{Dayenu!}\\
+Had God led us across on dry land without taking care of us for forty
+years in the desert,\\
+\textbf{Dayenu!}\\
+Had God taken care of us for forty years in the desert without feeding
+us manna,\\
+\textbf{Dayenu!}\\
+Had God fed us manna without giving us Shabbat,\\
+\textbf{Dayenu!}\\
+Had God given us Shabbat without bringing us to Mount Sinai,\\
+\textbf{Dayenu!}\\
+Had God brought us to Mount Sinai without giving us the Torah,\\
+\textbf{Dayenu!}\\
+Had God given us the Torah without leading us to the land of Israel,\\
+\textbf{Dayenu!}\\
+Had God led us to the land of Israel without building the temple for us,\\
+\textbf{Dayenu!}\\
+How manifold and miraculous are the great deeds that our God has
+performed for us, from taking us out of Egypt to building the Temple.
+\end{flushleft}
+
+\lilypondfile{dayenu_miriam.ly}
+
+\section{Short break to warm up food}
+
+\section{The three symbols of Passover: Shank bone, matzah, maror}
+Raise the shank bone and say:
+\begin{quote}
+ Why did our ancestors eat the Passover lamb? To remind us that
+God passed over the houses of our ancestors in Egypt. This was
+the Pesach/Passover festival sacrifice.
+\end{quote}
+
+\noindent Raise the matzah and say:
+\begin{quote}
+Matzah symbolizes the bread of poverty we were forced to eat when
+we were slaves, and reminds us of the haste in which we fled
+from Egypt, with no time to wait for dough to rise before baking.
+\end{quote}
+
+\noindent Raise the maror and say:
+\begin{quote}
+We eat maror (bitter herbs) because our oppressors embittered our
+lives. The Egyptians made our lives bitter with hard labor in mortar
+and brick, in all manner of work in the field, with crushing labor.
+\end{quote}
+
+\section{V'nomar lafanav}
+And we will recite before him a new song: Halleluyah!
+
+\begin{lilypond}
+  \include "vnomar_lafanav.ly"
+\end{lilypond}
+
+\section{Halleluyah}
+
+\begin{lilypond}
+\include "haleluyah-miriam.ly"
+\paper {
+  system-count = #6
+}
+\end{lilypond}
+
+\section{Drink second cup}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe, who creates
+the fruit of the vine.
+\end{quote}
+
+\lilypondfile{wine.ly}
+
+\section{Wash hands}
+All present wash their hands and recite:
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who sanctifies us through your mitzvot and
+commands us to wash our hands.
+\end{quote}
+
+\begin{quote}
+\texthebrew{
+בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל נְטִילַת יָדָים.
+}
+\end{quote}
+
+\begin{quote}
+\emph{
+Baruch atah adonai eloheinu, melech ha'olam,
+asher kid'shanu b'mitzvotav v'tzivanu al n'tilat
+yadayim.
+}
+\end{quote}
+
+
+\section{Motzi}
+
+This is the traditional prayer over bread, which is said
+at the beginning of every meal.
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who brings forth from the earth grain for bread.
+\end{quote}
+
+\lilypondfile{motzi.ly}
+
+\section{Matzah and maror}
+\subsection*{Matzah}
+
+The leader distributes the matzah.
+
+\lilypondfile{matzah.ly}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who sanctifies us through your mitzvot and
+commands us to eat unleavened bread on Passover.
+\end{quote}
+
+
+%\begin{quote}
+%\texthebrew{
+%בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל אֲכִילַת מַצָּה.
+%}
+%\end{quote}
+%
+%\begin{quote}
+%\emph{
+%Baruch atah adonai eloheinu, melech ha'olam,
+%asher kid'shanu b'mitzvotav v'tzivanu al achilat matzah.
+%}
+%\end{quote}
+
+All eat the matzah.
+
+\subsection*{Maror}
+The leader distributes the bitter herb dipped in haroset on a second piece of matzah.
+Then all recite together:
+
+\lilypondfile{maror.ly}
+
+%\begin{quote}
+%\texthebrew{
+%בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל אֲכִילַת מָרוֹר.
+%}
+%\end{quote}
+%
+%\begin{quote}
+%\emph{
+%Baruch atah adonai eloheinu, melech ha'olam,
+%asher kid'shanu b'mitzvotav v'tzivanu al achilat maror.
+%}
+%\end{quote}
+%
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe,
+who sanctifies us through your mitzvot and
+commands us to eat maror on Passover.
+\end{quote}
+
+\begin{quote}
+May the sweet haroset that we eat with maror remind us of
+the hope of freedom that enabled our ancestors to withstand the bitterness
+of their slavery.
+\end{quote}
+
+All eat the maror dipped in haroset.
+
+\subsection*{The Hillel sandwich}
+The leader distributes a second portion of maror, which is
+placed between two pieces of matzah. Then all say together:
+
+\begin{quote}
+Thus the sage Hillel used to do when the temple in Jerusalem
+was still standing: he would place together some of the paschal
+lamb and some maror with matzah and eat them together, to
+fulfill the Biblical command: ``Together with unleavened bread
+and bitter herbs shall they eat the paschal lamb.''
+\tiny{(Numbers 9:11)}
+\end{quote}
+
+\begin{quote}
+\texthebrew{
+כֵּן עָשָׂה הִלֵּל בִּזְמַן שֶׁבֵּית הַמִּקְדָּשׁ קַיָּם הָיָה כּוֹרֵךְ (פֶּסַח) מַצָּה וּמָרוֹר וְאוֹכֵל
+בְּיַחַד לְקַיֵּם מַה שֶׁנֶּאֱמַר עַל מַצּוֹת וּמְרֹרִים יֹאכְלֻהוּ׃ \tiny{(במדבר ט׳ י׳׳א)}
+}
+\end{quote}
+
+All eat the Hillel sandwich.
+
+\section{The festive meal}
+
+\section{Afikoman}
+The afikoman is distributed to all for dessert. It is customary
+to eat nothing further during the remainder of the seder.
+
+There may be a need to trade something in return for it if
+the children have hidden the Afikoman, for without it the seder
+cannot continue.
+
+\section{Grace after meals}
+
+\lilypondfile{grace-after-meals.ly}
+
+\vspace{1em}
+
+Blessed are you the Lord our God, king of the world, who feeds the whole world out of his goodness, charity and kindness. He gives bread to all living creatures because his charity is boundless. And in his great bounty we never lacked food and may we never lack it. He is a nurturing god who feeds everyone.
+
+\subsection*{Na'ar hayiti}
+
+\lilypondfile{naar_hayiti.ly}
+\vspace{1em}
+
+I was young and now I'm old, but I have never seen a virtuous man abandoned and his descendants wanting for bread.
+
+\newpage
+\subsection*{Shir hama'alot}
+
+\lilypondfile{shir_hamaalot.ly}
+
+\vspace{1em}
+When God returned with us to Zion we were as in a dream, our mouths brimming with laughter, our tongues full of joy. And the nations said: God had done great things for them - God had done great things for us, and we were happy.
+
+\section{Drink third cup}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe, who creates
+the fruit of the vine.
+\end{quote}
+
+\lilypondfile{wine.ly}
+
+\section{Elijah}
+The leader points to the cup for the Prophet Elijah and
+requests that the door of the house be opened to symbolize our faith in
+Elijah's coming.
+
+Elijah is linked more than any other prophet with the redemption
+of Israel. He is the mysterious stranger who arrives at precisely
+the right moment, to bring hope to those in despair. We open
+the door to welcome him.
+
+\begin{quote}
+Elijah the Prophet, Elijah the Tishbite, Elijah the Gileadite.
+Soon, in our time, may he come, bringing with him the Messiah.
+\end{quote}
+
+\par\vspace{0.25cm}
+
+\lilypondfile{eliyahu-miriam.ly}
+
+
+%The Liberty Bell in Philadelphia is inscribed with words from
+%Leviticus 25:10: ``Proclaim liberty throughout all the land unto all
+%the inhabitants thereof.''
+
+\section{Songs I}
+
+\subsection*{Kol rina}
+The voice of joy and salvation in the tents of the virtuous, God's right hand performs wonders on the battlefield.
+
+\lilypondfile{kol_rina.ly}
+
+\subsection*{Pitchu li}
+Open for me the gates of righteousness, I will go through them and thank the Lord.
+
+\lilypondfile{pitchu_li.ly}
+
+\newpage
+
+\subsection*{Chasal sidur pesach}
+The Seder is over, we performed it according to all the rules. As we have just prepared for the holiday, so let us celebrate it.
+
+\lilypondfile{chasal_sidur_pesach.ly}
+
+\subsection*{Karev yom}
+
+The day is approaching that is neither day nor night, praise the Almighty, both the day and night are yours.
+Set guards for your city for all day and all night, you will light up the night to be like the day.
+
+\lilypondfile{karev_yom.ly}
+\newpage
+\subsection*{Echad mi yodea?}
+
+Who knows one? I know one. One is God, who is in heaven and on earth.
+
+Who knows two? I know two. Two are the tablets of law, one is God, who is in heaven and on earth.
+
+Who knows three? I know three. Three are the forefathers, two are the tables of law,
+one is God, who is in heaven and on earth.
+
+Four are the mothers, five are the books of the Torah, six are the orders of the Mishnah,
+seven are the days in a week, eight are the days before circumcision, nine are the months
+before birth, 10 are the commandments, 11 are the stars in Joseph's dream,
+12 are the tribes of Israel, 13 are the attributes of God.
+
+\newpage
+
+\lilypondfile{echad_mi_yodea.ly}
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item Echad mi yodea? \\
+Echad ani yodea. \\
+Echad eloheinu\dots
+
+\item Shnayim mi yodea? \\
+Shnayim ani yodea. \\
+Shnei luchot habrit\dots
+
+\item Shloshah mi yodea? \\
+Shloshah ani yodea. \\
+Shloshah avot\dots
+
+\item Arbah mi yodea? \\
+Arbah ani yodea. \\
+Arbah imahot\dots
+
+\item Chamishah chumshei Torah
+\item Shishah sidrei Mishnah
+\item Shiva y’mei shabatah
+\item Shmonah y’mei milah
+\item Tishah chodshei leidah
+\item Asarah dibraya
+\item Achad asar kochvaya
+\item Shnem asar shivtaya
+\item Shloshah asar midaya
+\end{enumerate}
+\end{multicols}
+
+\paragraph{Song instructions:}
+For verse $N$, sing:
+\begin{quote}
+<$N$> mi yodea? <$N$> ani yodea. \\
+<verse $N$ words>, <verse $N-1$ words>  \dots\   <verse 1 words> \\
+<Chorus>
+\end{quote}
+
+For example, verse 5:
+
+\begin{quote}
+    Chamishah mi yodea?   Chamishah ani yodea. \\
+    Chamisha chumshei Torah, Arbah imahot, Shloshah avot,
+         Shnei luchot habrit, Echad elohenu. \\
+    <Chorus>
+\end{quote}
+
+Begin with verse 1 alone, then go up a number each time. End with
+words for 13,12,11,10,9,8,7,6,5,4,3,2,1 and chorus.
+
+\newpage
+
+\lilypondfile{echad_mi_yodea_miriam.ly}
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item Echad eloheinu
+\item Shnei luchot habrit
+\item Shloshah avot
+\item Arbah imahot
+\item Chamishah chumshei Torah
+\item Shishah sidrei Mishnah
+\item Shiva y’mei shabatah
+\item Shmonah y’mei milah
+\item Tishah chodshei leidah
+\item Asarah dibraya
+\item Achad asar kochvaya
+\item Shnem asar shivtaya
+\item Shloshah asar midaya
+\end{enumerate}
+\end{multicols}
+
+\vspace{2em}
+\paragraph{Song instructions:}
+Sing verse $N$, $N-1$ down to verse 2, then go to Chorus which is
+verse 1.
+
+\newpage
+
+\subsection*{Adir hu}
+
+\begin{quote}
+Mighty is He! Mighty is He!
+May He build His temple soon.
+Speedily, speedily, in our lifetime may it be.
+Build, O Lord! Build, O Lord! Build thy temple speedily!
+
+Chosen, great, renowned is He! May He build His temple soon, etc.
+
+Glorious, faithful, pure is He! May He build His temple soon, etc.
+\end{quote}
+
+\lilypondfile{adir_hu2.ly}
+
+\section{Drink fourth cup}
+
+\begin{quote}
+We give thanks to you, O Lord our God, ruler of the universe, who creates
+the fruit of the vine.
+\end{quote}
+
+\lilypondfile{wine.ly}
+
+\section{Songs II}
+
+\subsection*{Ki lo naeh}
+
+\begin{quote}
+Mighty in kingship, chosen as of right; to Him His host of angels sing:
+\begin{quote}
+“To Thee, just to Thee,
+to Thee and to Thee alone;
+to Thee, only to Thee,
+to Thee, O Lord, is sovereignty.”
+\end{quote}
+To God praise belongs; to Him it is ever due.
+
+Foremost in kingship, glorious as of right; to Him His faithful sing, etc.
+
+All-pure in kingship, powerful as of right; to Him His courtiers sing, etc.
+\end{quote}
+
+\lilypondfile{ki_lo_naeh.ly}
+
+\newpage
+
+\subsection*{Bashana haba'a}
+
+\begin{quote}
+Next year we'll sit around on the porch and count migratory birds.
+Kids on vacation will play tag between the house and the fields.
+You will see, you will see, how wonderful it will be next year.
+\end{quote}
+
+\lilypondfile{bashana_habaa.ly}
+
+\newpage
+
+This passover night, let us sing Prophet Isaiah's vision
+of a world that is free of violence and war. {\tiny(Isaiah 2:4)}
+And let us work in community with others to transform that vision
+into a reality.
+
+\subsection*{Lo yisa goy}
+
+\begin{quote}
+Nation shall not lift up sword against nation, neither
+shall they study war any more.
+\end{quote}
+
+\par\vspace{0.5cm}
+
+\lilypondfile{lo_yisa_goy.ly}
+
+\section{Closing}
+
+Now we come to the close of our seder.
+
+We have retold the story of Israel's liberation from bondage, and
+rededicated ourselves to the cause of freedom for all.
+Let us look forward to celebrating again next year.
+
+\subsection*{L'shana haba'a}
+
+\begin{quote}
+Next year in Jerusalem (or more likely Menlo Park).
+\end{quote}
+
+\par\vspace{0.5cm}
+
+\lilypondfile{lshana_habaa_miriam.ly}
+
+\end{document}
