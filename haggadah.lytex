@@ -8,7 +8,7 @@
 %\newfontfamily\hebrewfont[Script=Hebrew]{SBL Hebrew}% or{SBL Hebrew}
 \setmainlanguage{english}
 \setotherlanguage{hebrew}
-\newfontfamily\hebrewfont[Script=Hebrew]{Ezra SIL}
+\newfontfamily\hebrewfont[Script=Hebrew]{Frank Ruehl CLM}
 %\setmainfont{Century Schoolbook L}
 %\setmainfont[Script=Hebrew]{Ezra SIL}
 %\usepackage[english,hebrew]{babel}
