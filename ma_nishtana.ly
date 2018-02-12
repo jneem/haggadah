@@ -3,11 +3,12 @@
 \include "defs.ly"
 
 \score {
+  \transpose e b,
   <<
     \new Voice = "intro" {
       \override Score.NoteColumn #'ignore-collision = ##t
       \relative {
-        \key g \major
+        \key e \minor
       | g'4 e8 e e4 e
       | g4 e8 e e4 b'
       | d4( c) a c

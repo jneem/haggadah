@@ -3,7 +3,7 @@
 \score {
 <<
   \new Voice
-    \relative {
+    \relative c' {
       \key d \minor
       \repeat volta 2 {
         d4 f f2

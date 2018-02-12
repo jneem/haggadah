@@ -2,21 +2,21 @@
 
 \include "defs.ly"
 
-intro = \relative {
+intro = \relative c' {
   \key d \major
   \partial 8 d8
   fis4 g a8( d b) g
 | fis4 e d4.
 }
 
-verse = \relative {
+verse = \relative c' {
   fis8
 | a( fis) a fis e4. fis8
 | g8 b a g fis4. a8
-| d8( a) \times 2/3 {a( g) fis} e4.
+| d8( a) b16( a) g( fis) e4.
 }
 
-chorus = \relative {
+chorus = \relative c' {
   a8
 | fis'4 \times 2/3 {fis4 e8} d4. a8
 | g'4 \times 2/3 {g4 fis8} e4. a,8

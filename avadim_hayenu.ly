@@ -3,7 +3,7 @@
 \score {
 <<
   \new Voice {
-    \relative {
+    \relative c' {
       \key d \minor
       d8 d d d d g4( e8)
     | f4 e d4. a8

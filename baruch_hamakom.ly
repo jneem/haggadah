@@ -3,7 +3,7 @@
 \score {
 <<
   \new Voice {
-    \relative {
+    \relative c' {
       \key g \major
       d8 b'4 a8 g4 d
     | b4 c d2

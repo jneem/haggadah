@@ -88,7 +88,11 @@ light candles on the Sabbath and all our festivals.
 \section{Seder plate}
 \includegraphics[width=\textwidth]{sederplate}
 
-\section{The order of the service}
+\section{``Seder'' means Order}
+
+Here is the traditional order:
+
+\vspace{4em}
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -109,7 +113,7 @@ light candles on the Sabbath and all our festivals.
 \texthebrew{נִרְצָה} & \textsc{Nirtzah} & Complete the seder
 \end{tabular}
 
-\vspace{5em}
+\vspace{4em}
 
 Ur'hatz washing the hands is in preparation for dipping the
       karpas in salt water.
@@ -117,6 +121,38 @@ Ur'hatz washing the hands is in preparation for dipping the
 Rohtzah washing the hands is in preparation for the meal,
       and requires the traditional blessing for washing hands.
 \end{center}
+
+\newpage
+
+Here is the (non-traditional) order of our seder:
+
+\vspace{4em}
+
+\noindent Light candles \\
+Invocation \\
+Kiddush \\
+First cup \\
+Karpas \\
+Divide Matzah \\
+Four questions \\
+Four children \\
+Passover story (traditional) \\
+Passover story (as told by Ruth Bader Ginsburg) \\
+Songs, including Dayenu \\
+Symbols of Passover \\
+Songs, including Halleluyah \\
+Second cup \\
+Food blessings \\
+\\
+Dinner \\
+\\
+Grace after meals \\
+Third cup \\
+Elijah \\
+Songs, including Echad Mi Yodea \\
+Fourth cup \\
+More songs \\
+Closing with final song, Leshanah haba'a b'Yerushalayim
 
 \section{Invocation}
 \begin{flushleft}
@@ -191,20 +227,14 @@ Blessed are you, Lord our God, King of the Universe, who creates
 the fruit of the earth.
 \end{quote}
 
-\begin{quote}
-\texthebrew{
-בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם בּוֹרֵא פְּרִי הָאֲדָמָה.
-} 
-\end{quote}
+\par\vspace{0.5cm}
 
-\begin{quote}
-\emph{
-Baruch atah adonai elohaynu melech ha'olam boray pree ha'adamah.
-}
-\end{quote}
+\lilypondfile{earth.ly}
+
+\par\vspace{0.5cm}
 
 Why do we eat karpas?
-The parsley is to remind us of greens growing in the spring.
+The parsley is to remind us of the bitterness of slavery.
 We dip it in salt water to remind us of the tears that our
 ancestors shed during their time as slaves.
 
@@ -309,10 +339,10 @@ a mighty hand and an outstretched arm. Had he not brought our forefathers
 out of Egypt, then we, our children, and our children's children would
 still be slaves to Pharaoh's descendants.
 Therefore we must tell this story each year to remind us
-what freedom means and to strenghten our resolve to seek it for ourselves and
+what freedom means and to strengthen our resolve to seek it for ourselves and
 for others.
 
-Here is the story:
+\subsection{The traditional story}
 
 Jacob, grandson of Abraham, lived in the land of Canaan where there was
 severe famine. Jacob's son Joseph served the Pharaoh in Egypt and offered
@@ -342,6 +372,65 @@ festival of Passover.
 The Pharaoh symbolizes all tyrants. We read the Passover story to
 remember every emancipation, and to look forward to a time when all
 the world will live in peace and freedom.
+
+\subsection{The story, as told by Ruth Bader Ginsburg}
+
+On Passover, Jews are commanded to tell the story of the Exodus and to see
+ourselves as having lived through that story, so that we may better learn how
+to live our lives today. The stories we tell our children shape what they
+believe to be possible---which is why at Passover, we must tell the stories of
+the women who played a crucial role in the Exodus narrative.
+
+The Book of Exodus, much like the Book of Genesis, opens in pervasive darkness.
+Genesis describes the earth as ``unformed and void, with darkness over the
+surface of the deep.'' In Exodus, darkness attends the accession of a new
+Pharaoh who feared the Israelites and so enslaved them. God alone lights the
+way out of the darkness in Genesis. But in Exodus, God has many partners, first
+among them, five brave women.
+
+There is Yocheved, Moses' mother, and Shifra and Puah, the famous midwives.
+Each defies Pharaoh's decree to kill the Israelite baby boys. And there is
+Miriam, Moses' sister, about whom the following midrash is taught:
+
+\begin{quote}
+[When Miriam’s only brother was Aaron] she prophesied\dots ``my mother is
+destined to bear a son who will save Israel.'' When [Moses] was born the whole
+house… filled with light[.] [Miriam's] father arose and kissed her on the head,
+saying, ``My daughter, your prophecy has been fulfilled.'' But when they threw
+[Moses] into the river her father tapped her on the head saying, ``Daughter,
+where is your prophecy?'' So it is written, ``And [Miriam] stood afar off to
+know what would be[come of] the latter part of her prophecy.''
+\end{quote}
+
+Finally, there is Pharaoh’s daughter Batya, who defies her own father and
+plucks baby Moses out of the Nile. The Midrash reminds us that Batya knew
+exactly what she doing:
+
+\begin{quote}
+When Pharaoh's daughter's handmaidens saw that she intended to rescue Moses,
+they attempted to dissuade her, and persuade her to heed her father. They said
+to her: ``Our mistress, it is the way of the world that when a king issues a
+decree, it is not heeded by the entire world, but his children and the members
+of his household do observe it, and you wish to transgress your father's
+decree?''
+\end{quote}
+
+But transgress she did.
+
+These women had a vision leading out of the darkness shrouding their world.
+They were women of action, prepared to defy authority to make their vision a
+reality bathed in the light of the day.
+
+Retelling the heroic stories of Yocheved, Shifra, Puah, Miriam and Batya
+reminds our daughters that with vision and the courage to act, they can carry
+forward the tradition those intrepid women launched.
+
+While there is much light in today’s world, there remains in our universe
+disheartening darkness, inhumanity spawned by ignorance and hate. We see
+horrific examples in the Middle East, parts of Africa, and Ukraine. The
+Passover story recalls to all of us—women and men—that with vision and action
+we can join hands with others of like mind, kindling lights along paths leading
+out of the terrifying darkness.
 
 \section{Plagues}
 In sympathy for the Egyptians whose death was the price of our
@@ -434,9 +523,11 @@ and brick, in all manner of work in the field, with crushing labor.
 \section{V'nomar lafanav}
 And we will recite before him a new song: Halleluyah!
 
-\begin{lilypond}
-  \include "vnomar_lafanav.ly"
-\end{lilypond}
+\def\betweenLilyPondSystem#1{\vspace{2em} \newline}
+
+\lilypondfile{vnomar_lafanav.ly}
+
+\let\betweenLilyPondSystem\undefined
 
 \section{Halleluyah}
 
@@ -457,27 +548,14 @@ the fruit of the vine.
 \lilypondfile{wine.ly}
 
 \section{Wash hands}
-All present wash their hands and recite:
+The leader, and anyone else who would like, washes their hands and recites:
 \begin{quote}
 We give thanks to you, O Lord our God, ruler of the universe,
 who sanctifies us through your mitzvot and
 commands us to wash our hands.
 \end{quote}
 
-\begin{quote}
-\texthebrew{
-בָּרוּךְ אַתָּה יְיֳ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל נְטִילַת יָדָים.
-}
-\end{quote}
-
-\begin{quote}
-\emph{
-Baruch atah adonai eloheinu, melech ha'olam,
-asher kid'shanu b'mitzvotav v'tzivanu al n'tilat
-yadayim.
-}
-\end{quote}
-
+\lilypondfile{wash_hands.ly}
 
 \section{Motzi}
 
@@ -519,6 +597,8 @@ commands us to eat unleavened bread on Passover.
 %\end{quote}
 
 All eat the matzah.
+
+\newpage
 
 \subsection*{Maror}
 The leader distributes the bitter herb dipped in haroset on a second piece of matzah.
@@ -628,7 +708,7 @@ the right moment, to bring hope to those in despair. We open
 the door to welcome him.
 
 \begin{quote}
-Elijah the Prophet, Elijah the Tishbite, Elijah the Gileadite.
+Elijah the Prophet, Elijah the Tishbi, Elijah the Giladi.
 Soon, in our time, may he come, bringing with him the Messiah.
 \end{quote}
 
@@ -671,19 +751,50 @@ Set guards for your city for all day and all night, you will light up the night 
 
 Who knows one? I know one. One is God, who is in heaven and on earth.
 
+\vspace{1em}
+
 Who knows two? I know two. Two are the tablets of law, one is God, who is in heaven and on earth.
 
-Who knows three? I know three. Three are the forefathers, two are the tables of law,
-one is God, who is in heaven and on earth.
+\vspace{1em}
 
-Four are the mothers, five are the books of the Torah, six are the orders of the Mishnah,
-seven are the days in a week, eight are the days before circumcision, nine are the months
+Who knows three? I know three. Three are the forefathers,
+two are the tables of law, one is God, who is in heaven and on earth.
+
+\vspace{1em}
+
+Who knows four? I know four. Four are the mothers,
+three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+
+\vspace{1em}
+
+Who knows five? I know five. Five are the books of the Torah,
+four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+
+\vspace{1em}
+
+Who knows six? I know six. Six are the orders of the Mishnah,
+five are the books of the Torah, four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+
+\vspace{1em}
+
+Who knows seven? I know seven. Seven are the days in a week,
+six are the orders of the Mishnah, five are the books of the Torah, four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+
+\vspace{1em}
+
+\begin{center}
+$ $ \vdots $ $
+\end{center}
+
+\vspace{1em}
+
+Eight are the days before circumcision, nine are the months
 before birth, 10 are the commandments, 11 are the stars in Joseph's dream,
 12 are the tribes of Israel, 13 are the attributes of God.
 
 \newpage
 
-\lilypondfile{echad_mi_yodea.ly}
+\lilypondfile{echad_mi_yodea_miriam.ly}
 
 \begin{multicols}{2}
 \begin{enumerate}
@@ -693,15 +804,21 @@ Echad eloheinu\dots
 
 \item Shnayim mi yodea? \\
 Shnayim ani yodea. \\
-Shnei luchot habrit\dots
+Shnei luchot habrit, \\
+Echad eloheinu\dots
 
 \item Shloshah mi yodea? \\
 Shloshah ani yodea. \\
-Shloshah avot\dots
+Shloshah avot, \\
+Shnei luchot habrit, \\
+Echad eloheinu\dots
 
 \item Arbah mi yodea? \\
 Arbah ani yodea. \\
-Arbah imahot\dots
+Arbah imahot, \\
+Shloshah avot, \\
+Shnei luchot habrit, \\
+Echad eloheinu\dots
 
 \item Chamishah chumshei Torah
 \item Shishah sidrei Mishnah
@@ -716,28 +833,52 @@ Arbah imahot\dots
 \end{multicols}
 
 \paragraph{Song instructions:}
-For verse $N$, sing:
-\begin{quote}
-<$N$> mi yodea? <$N$> ani yodea. \\
-<verse $N$ words>, <verse $N-1$ words>  \dots\   <verse 1 words> \\
-<Chorus>
-\end{quote}
+This works like ``12 nights of Xmas,'' except with 13 verses not 12. 
+Add a line to the chorus each time, beginning with the most recent 
+one, and ending with ``echad eloheinu shebashamayim uva aretz''
+meaning ``one God in heaven and on earth.''
 
-For example, verse 5:
+Every verse begins ``Who knows $N$'', where ``mi yodeah'' is
+``who knows.'' Followed by ``I know $N$'' where ``ani
+yodeah'' is ``I know.''
 
-\begin{quote}
-    Chamishah mi yodea?   Chamishah ani yodea. \\
-    Chamisha chumshei Torah, Arbah imahot, Shloshah avot,
-         Shnei luchot habrit, Echad elohenu. \\
-    <Chorus>
-\end{quote}
+For example, verse 4 is ``Arbah imahot'' meaning ``4 mothers.''
+So the verse goes like this:
 
-Begin with verse 1 alone, then go up a number each time. End with
-words for 13,12,11,10,9,8,7,6,5,4,3,2,1 and chorus.
+\begin{multicols}{2}
+\noindent
+Arbah mi yodeah? \\
+Arbah ani yodeah! \\
+Arbah imahot!
+
+\columnbreak
+
+\noindent
+Who knows four? \\
+I know four! \\
+Four mothers!
+\end{multicols}
+
+Followed by chorus text for verses 3, 2, and 1:
+
+\begin{multicols}{2}
+\noindent
+Shloshah avot, \\
+Shei luchot habrit, \\
+Echad eloheinu shebashamayim uva aretz.
+
+\columnbreak
+
+\noindent
+Three forefathers, \\
+Two tablets of law, \\
+One God in heaven and on earth.
+
+\end{multicols}
 
 \newpage
 
-\lilypondfile{echad_mi_yodea_miriam.ly}
+\lilypondfile{echad_mi_yodea.ly}
 
 \begin{multicols}{2}
 \begin{enumerate}
@@ -756,11 +897,6 @@ words for 13,12,11,10,9,8,7,6,5,4,3,2,1 and chorus.
 \item Shloshah asar midaya
 \end{enumerate}
 \end{multicols}
-
-\vspace{2em}
-\paragraph{Song instructions:}
-Sing verse $N$, $N-1$ down to verse 2, then go to Chorus which is
-verse 1.
 
 \newpage
 

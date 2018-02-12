@@ -5,7 +5,7 @@
 \score {
 <<
   \new Voice
-    \relative {
+    \relative c' {
       \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
       \override Score.RehearsalMark #'self-alignment-X = #RIGHT
       \key g \minor

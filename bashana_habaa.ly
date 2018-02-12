@@ -2,6 +2,7 @@
 
 \include "defs.ly"
 
+\transpose c a,
 <<
   \relative c' {
     \key f \minor
