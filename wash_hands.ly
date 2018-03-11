@@ -14,15 +14,16 @@
     | g2 r4 e8 f
     | g2 r8 g8 f e 
     | f2 r8 f d e
-    | f2 r8 e e d
-    | e2 r8 d c( b)
-    | c2 r4. \bar "|."
+    | f2 r8 f e d
+    | e2 r4 d4
+    | c( b) c2
+    | a4( b) c4.\fermata \bar "|."
   }
   \addlyrics {
     Ba -- ruch a -- tah A -- do -- nai,
     e -- lo -- hei -- nu me -- lech ha -- o -- lam,
     a -- sher kid -- sha -- nu b’ -- mitz -- vo -- tav
-    v’ -- tsi -- va -- nu al n’ -- si -- lat
-    ya -- da -- yim.
+    v’ -- tsi -- va -- nu al n’ -- ti -- lat
+    ya -- da -- yim. A -- men.
   }
 >>

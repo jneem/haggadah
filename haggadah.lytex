@@ -55,7 +55,7 @@
 \HRule \\[1.5cm]
 
 { \large Edited by Miriam Blatt and Joe Neeman } \\[0.4cm]
-2015
+2018
 \end{center}
 \end{titlepage}
 
@@ -90,23 +90,25 @@ light candles on the Sabbath and all our festivals.
 
 \section{``Seder'' means Order}
 
-Here is the traditional order:
+Recite together the traditional order:
 
 \vspace{4em}
 
 \begin{center}
 \begin{tabular}{rcl}
 \texthebrew{קַדֵּש}ׁ& \textsc{Kadesh} & Recite Kiddush \\
-\texthebrew{וּרְחַץ} & \textsc{Ur'hatz} & Wash the hands \\
+\texthebrew{וּרְחַץ} & \textsc{Ur'chatz} & Wash the hands \\
 \texthebrew{כַּרְפַּס} & \textsc{Karpas} & Dip the vegetables \\
-\texthebrew{יַחַץ} & \textsc{Yahatz} & Divide the matzah \\
+\texthebrew{יַחַץ} & \textsc{Yachatz} & Divide the matzah \\
 \texthebrew{מַגִּיד} & \textsc{Maggid} & Tell the Passover story \\
-\texthebrew{רָחְצָה} & \textsc{Rohtzah} & Wash the hands \\
+\texthebrew{רָחְצָה} & \textsc{Rochtzah} & Wash the hands \\
 \texthebrew{מוֹצִיא} & \textsc{Motzi} & Recite the Motzi \\
 \texthebrew{מַצָּה} & \textsc{Matzah} & Eat the matzah \\
 \texthebrew{מָרוֹר} & \textsc{Maror} & Eat the maror \\
 \texthebrew{כּוֹרֵךְ} & \textsc{Korech} & Eat the Hillel sandwich \\
-\texthebrew{שֹֻׁלְחָן עוֹרֵךְ} & \textsc{Shulhan Orech} & Eat the festive meal \\
+\\
+\texthebrew{שֹֻׁלְחָן עוֹרֵךְ} & \textsc{Shulchan Orech} & Eat the festive meal \\
+\\
 \texthebrew{צָפוּן} & \textsc{Tzafun} & Eat the Afikoman \\
 \texthebrew{בָּרֵךְ} & \textsc{Barech} & Give thanks for the meal \\
 \texthebrew{הַלֵּל} & \textsc{Hallel} & Sing hymns of praise \\
@@ -115,44 +117,44 @@ Here is the traditional order:
 
 \vspace{4em}
 
-Ur'hatz washing the hands is in preparation for dipping the
+Ur'chatz washing the hands is in preparation for dipping the
       karpas in salt water.
 
-Rohtzah washing the hands is in preparation for the meal,
+Rochtzah washing the hands is in preparation for the meal,
       and requires the traditional blessing for washing hands.
 \end{center}
 
 \newpage
 
-Here is the (non-traditional) order of our seder:
+%Here is the (non-traditional) order of our seder:
 
-\vspace{4em}
+%\vspace{4em}
 
-\noindent Light candles \\
-Invocation \\
-Kiddush \\
-First cup \\
-Karpas \\
-Divide Matzah \\
-Four questions \\
-Four children \\
-Passover story (traditional) \\
-Passover story (as told by Ruth Bader Ginsburg) \\
-Songs, including Dayenu \\
-Symbols of Passover \\
-Songs, including Halleluyah \\
-Second cup \\
-Food blessings \\
-\\
-Dinner \\
-\\
-Grace after meals \\
-Third cup \\
-Elijah \\
-Songs, including Echad Mi Yodea \\
-Fourth cup \\
-More songs \\
-Closing with final song, Leshanah haba'a b'Yerushalayim
+%\noindent Light candles \\
+%Invocation \\
+%Kiddush \\
+%First cup \\
+%Karpas \\
+%Divide Matzah \\
+%Four questions \\
+%Four children \\
+%Passover story (traditional) \\
+%Passover story (as told by Ruth Bader Ginsburg) \\
+%Songs, including Dayenu \\
+%Symbols of Passover \\
+%Songs, including Halleluyah \\
+%Second cup \\
+%Food blessings \\
+%\\
+%Dinner \\
+%\\
+%Grace after meals \\
+%Third cup \\
+%Elijah \\
+%Songs, including Echad Mi Yodea \\
+%Fourth cup \\
+%More songs \\
+%Closing with final song, Leshanah haba'a b'Yerushalayim
 
 \section{Invocation}
 \begin{flushleft}
@@ -301,8 +303,8 @@ We eat maror to remind us how bitter our ancestors' lives were made
 by their enslavement in Egypt.
 
 \subsection*{Why do we dip twice tonight?}
-We dip karpas in salt water to remind us of greens growing in
-spring. We dip maror in sweet haroset as a sign of hope.
+We dip karpas in salt water to remind us of the bitterness of slavery.
+We dip maror in sweet haroset as a sign of hope.
 Our ancestors were able to withstand the bitterness of slavery because
 it was sweetened by the hope of freedom.
 
@@ -433,10 +435,13 @@ we can join hands with others of like mind, kindling lights along paths leading
 out of the terrifying darkness.
 
 \section{Plagues}
+
 In sympathy for the Egyptians whose death was the price of our
 freedom, we remove a drop of wine or juice from our cup by
 dipping a finger in and shaking it off onto a plate as each plague
 is named.
+
+\vspace{3em}
 
 \lilypondfile{dahm.ly}
 
@@ -554,6 +559,8 @@ We give thanks to you, O Lord our God, ruler of the universe,
 who sanctifies us through your mitzvot and
 commands us to wash our hands.
 \end{quote}
+
+\vspace{3em}
 
 \lilypondfile{wash_hands.ly}
 
@@ -758,27 +765,27 @@ Who knows two? I know two. Two are the tablets of law, one is God, who is in hea
 \vspace{1em}
 
 Who knows three? I know three. Three are the forefathers,
-two are the tables of law, one is God, who is in heaven and on earth.
+two are the tablets of law, one is God, who is in heaven and on earth.
 
 \vspace{1em}
 
 Who knows four? I know four. Four are the mothers,
-three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+three are the forefathers, two are the tablets of law, one is God, who is in heaven and on earth.
 
 \vspace{1em}
 
 Who knows five? I know five. Five are the books of the Torah,
-four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+four are the mothers, three are the forefathers, two are the tablets of law, one is God, who is in heaven and on earth.
 
 \vspace{1em}
 
 Who knows six? I know six. Six are the orders of the Mishnah,
-five are the books of the Torah, four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+five are the books of the Torah, four are the mothers, three are the forefathers, two are the tablets of law, one is God, who is in heaven and on earth.
 
 \vspace{1em}
 
 Who knows seven? I know seven. Seven are the days in a week,
-six are the orders of the Mishnah, five are the books of the Torah, four are the mothers, three are the forefathers, two are the tables of law, one is God, who is in heaven and on earth.
+six are the orders of the Mishnah, five are the books of the Torah, four are the mothers, three are the forefathers, two are the tablets of law, one is God, who is in heaven and on earth.
 
 \vspace{1em}
 
@@ -788,9 +795,13 @@ $ $ \vdots $ $
 
 \vspace{1em}
 
-Eight are the days before circumcision, nine are the months
-before birth, 10 are the commandments, 11 are the stars in Joseph's dream,
-12 are the tribes of Israel, 13 are the attributes of God.
+\noindent
+Eight are the days before circumcision\dots \\
+Nine are the months before birth\dots \\
+Ten are the commandments\dots \\
+Eleven are the stars in Joseph's dream\dots \\
+Twelve are the tribes of Israel\dots \\
+Thirteen are the attributes of God\dots
 
 \newpage
 
