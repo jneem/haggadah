@@ -4,7 +4,7 @@
 <<
   \transpose d b,
   \new Voice {
-    \relative {
+    \relative c' {
       \key g \minor
       \partial 8 d8
       \repeat volta 2 {

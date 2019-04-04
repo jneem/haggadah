@@ -12,7 +12,7 @@
     | d4. d,8 f f
     | \time 2/4 e4 d
     | \repeat volta 2 { \time 3/4 a'8( gis) a8 d, f e
-    | \time 2/4 d4. } c8\mark\markup{ \bold "Chorus" }
+    | \time 2/4 d4.^\fermata } c8\mark\markup{ \bold "Chorus" }
     | \time 4/4 f8 g a f bes a g f
     | a g f e g f e( d)
     | a'4 a8. a16 bes4 a

@@ -2,8 +2,8 @@
 
 \score {
 <<
-  \new Voice
-    \relative {
+  \new Voice \repeat volta 2 {
+    \relative c' {
       \key c \minor
       \partial 8 c8
     | c4 c8 c f4 es
@@ -15,8 +15,9 @@
     | bes'4 bes8 bes c4 bes
     | as8 g as bes g2
     | f8 es d c f4 es
-    | d8 c d es c4. \bar ":|"
+    | d8 c d es c4.
     }
+  }
 
     \addlyrics {
       Cha -- sal si -- dur pe -- sach

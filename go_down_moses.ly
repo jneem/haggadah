@@ -42,8 +42,8 @@
     | g4 g2.
     | fis2 fis4. fis8
     | fis4 fis d2
-    | es1
-    | es4 es es4. es8
+    | es2. es4
+    | es2 es4. es8
     | d4 d d8 d4 d8~
     | d2.
     }
@@ -73,7 +73,7 @@
       \lyricmode {
       “No4 more shall they in bond8 -- age4 toil”8*5
       let4 my4 peo8 -- ple4 go.8*7
-      “Let4 them some out with E8 -- gypt’s4 spoil”8*5
+      “Let4 them come out with E8 -- gypt’s4 spoil”8*5
       let4 my4 peo8 -- ple4 go.8*9
       }
     >>
@@ -88,9 +88,9 @@
       bes4 bes2. 
       | g4 g2.
       | a2 a4. a8
-      | a4 a4 bes2
-      | bes1
-      | c4 c c4. c8
+      | a4 a4 g2
+      | bes2. bes4
+      | c2 c4. c8
       | a4 a c8 c4 bes8~
       | bes2. r4
       R1*2
@@ -105,9 +105,9 @@
       g4 g2. 
       | es4 es2.
       | d2 d4. d8
-      | d4 c4 <bes g'>2
-      | es1
-      | c4 c c4. c8
+      | d4 c4 bes2
+      | es2. es4
+      | c2 c4. c8
       | d4 d d8 d4 g8~
       | g2. r4
       R1*2

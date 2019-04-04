@@ -55,7 +55,7 @@
 \HRule \\[1.5cm]
 
 { \large Edited by Miriam Blatt and Joe Neeman } \\[0.4cm]
-2015
+2019
 \end{center}
 \end{titlepage}
 
@@ -326,7 +326,7 @@ male babies killed.
 Yocheved, rather than kill her baby Moses, put him in a basket to
 float down the river Nile. Her daughter Miriam, the sister of Moses,
 served the Pharaoh's daughter. Miriam rescued Moses who was adopted by
-Pharoah's daughter. Miriam recommended the hiring of her mother Yocheved
+Pharaoh's daughter. Miriam recommended the hiring of her mother Yocheved
 to nurse Moses.
 
 Moses grew up in the palace, but fled after killing an Egyptian who had
@@ -655,18 +655,13 @@ Open for me the gates of righteousness, I will go through them and thank the Lor
 
 \newpage
 
-\subsection*{Chasal sidur pesach}
-The Seder is over, we performed it according to all the rules. As we have just prepared for the holiday, so let us celebrate it.
-
-\lilypondfile{chasal_sidur_pesach.ly}
-
 \subsection*{Karev yom}
 
 The day is approaching that is neither day nor night, praise the Almighty, both the day and night are yours.
 Set guards for your city for all day and all night, you will light up the night to be like the day.
 
 \lilypondfile{karev_yom.ly}
-\newpage
+
 \subsection*{Echad mi yodea?}
 
 Who knows one? I know one. One is God, who is in heaven and on earth.
@@ -846,6 +841,13 @@ Now we come to the close of our seder.
 We have retold the story of Israel's liberation from bondage, and
 rededicated ourselves to the cause of freedom for all.
 Let us look forward to celebrating again next year.
+
+\subsection*{Chasal sidur pesach}
+The Seder is over, we performed it according to all the rules. As we have just prepared for the holiday, so let us celebrate it.
+
+\lilypondfile{chasal_sidur_pesach.ly}
+
+\newpage
 
 \subsection*{L'shana haba'a}
 

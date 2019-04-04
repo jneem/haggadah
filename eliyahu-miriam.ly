@@ -35,7 +35,7 @@
   }
   
   \new Lyrics \with { \override VerticalAxisGroup #'staff-affinity = #CENTER }
-  \lyricsto "melody" \lyricmode {
+  \lyricsto "melody" {
     E -- li -- ya -- hu ha -- na -- vi
     E -- li -- ya -- hu ha -- tish -- bi
     E -- li -- ya -- hu
