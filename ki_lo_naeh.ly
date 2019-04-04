@@ -13,7 +13,7 @@ verse = \relative c' {
   fis8
 | a( fis) a fis e4. fis8
 | g8 b a g fis4. a8
-| d8( a) \times 2/3 {a( g) fis} e4.
+| d8( a) b16( a) g( fis) e4.
 }
 
 chorus = \relative c' {

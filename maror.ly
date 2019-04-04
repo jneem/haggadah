@@ -16,7 +16,7 @@
     Ba -- ruch a -- tah A -- do -- nai,
     e -- lo -- hei -- nu me -- lech ha -- o -- lam,
     a -- sher kid -- sha -- nu b’ -- mitz -- vo -- tav
-    v’ -- tzi -- va -- nu al a -- chi -- lat ma -- tzah.
+    v’ -- tzi -- va -- nu al a -- chi -- lat ma -- ror.
     A -- men.
   }
 >>

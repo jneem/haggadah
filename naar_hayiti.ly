@@ -2,9 +2,9 @@
 
 \score {
 <<
-  \transpose d a
+  \transpose d a,
   \new Voice
-    \relative {
+    \relative c' {
       \time 6/8
       \key g \minor
       d'4. g,4 a8

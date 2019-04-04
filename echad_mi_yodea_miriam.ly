@@ -19,7 +19,7 @@
     | e c b a
     | b2 b4 \bar "||" \break
     
-    \mark \markup \bold "Chorus"
+    \mark \markup \huge \bold "Chorus"
     e,
     | a( b) c d
     | e( f) e8 e d d
@@ -32,7 +32,7 @@
     | e c b a
     | b2 b4 e
     | e e c a
-    | b2. s4 \bar "||" \break
+    | b2. \mark \markup \large \bold "Chorus" s4 \bar "||" \break
     
     \mark "Verse 3"
     a4 a e' e
@@ -40,9 +40,9 @@
     | e c b a
     | b2 b4 e
     | e2 c4( a)
-    | b2. e4
+    | b2. b4
     | e e c a
-    | b2. s4 \bar "||" \break
+    | b2. \mark \markup \large \bold "Chorus" s4 \bar "||" \break
   }
   \addlyrics {
     E -- chad mi yo -- de -- ah?

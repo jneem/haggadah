@@ -6,8 +6,10 @@
 
 \include "defs.ly"
 
+\transpose c bes,
 <<
   \new Staff \relative c' {
+    \key c \major
     \new Voice = "verse" {
 	e8 g g g g a g f
       | e g g g g a g f

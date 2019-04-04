@@ -9,6 +9,7 @@
     \time 6/4
     \key bes \major
     \set Staff.midiInstrument = #"piano"
+    \repeat volta 2 {
    d2 d4 bes'2 a4
     | g g g g2 g8 g
     | a2 g4 a a g
@@ -24,8 +25,9 @@
     | d d d c2( a4)
     | bes4 bes bes a2.
     | d,2 d4 fis2 fis4
-    | g fis es d2. \bar "|."
+    | g fis es d2.
   }
+}
   
   \new Lyrics \with { \override VerticalAxisGroup #'staff-affinity = #CENTER }
     \lyricsto "melody" {

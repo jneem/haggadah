@@ -7,7 +7,6 @@
     \relative c' {
       \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
       \override Score.RehearsalMark #'self-alignment-X = #RIGHT
-      \override Score.RehearsalMark #'direction = #DOWN
       \key g \minor
       \repeat volta 2 {
         d8 bes'4 a8 g4 g
