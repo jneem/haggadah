@@ -494,6 +494,8 @@ And this is what stood by our ancestors and us: every generation someone wants t
 \lilypondfile{go_down_moses.ly}
 \undef\betweenLilyPondSystem
 
+\newpage
+
 \section{Dayenu}
 
 \begin{flushleft}
