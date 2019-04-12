@@ -25,7 +25,7 @@
   >>
   }
   
-  \new Lyrics \lyricsto "melody" \lyricmode {
+  \new Lyrics \lyricsto "melody" {
     Dahm Blood
     Ts -- far -- de -- yah Frogs
     Ki -- nim Lice

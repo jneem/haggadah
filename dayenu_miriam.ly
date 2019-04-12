@@ -29,27 +29,27 @@
     }
   }
   
-  \new Lyrics \lyricsto "verse" \lyricmode {
+  \new Lyrics \lyricsto "verse" {
     I -- lu ho -- tzi ho -- tzi -- a -- nu ho -- tzi -- a -- nu
     mi -- mitz -- ra -- yim
     ho -- tzi -- a -- nu
     mi -- mitz -- ra -- yim
     da -- ye -- nu.
   }
-  \new Lyrics \lyricsto "verse" \lyricmode {
+  \new Lyrics \lyricsto "verse" {
     I -- lu na -- tan na -- tan la -- nu
     na -- tan la -- nu et ha -- sha -- bat
     na -- tan la -- nu et ha -- sha -- bat
     da -- ye -- nu.
   }
-  \new Lyrics \lyricsto "verse" \lyricmode {
+  \new Lyrics \lyricsto "verse" {
     I -- lu na -- tan na -- tan la -- nu
     na -- tan la -- nu et ha -- to -- rah
     na -- tan la -- nu et ha -- to -- rah
     da -- ye -- nu.
   }
   
-  \new Lyrics \lyricsto "chorus" \lyricmode {
+  \new Lyrics \lyricsto "chorus" {
     Da -- da -- ye -- nu
     da -- da -- ye -- nu
     da -- da -- ye -- nu
