@@ -14,7 +14,7 @@
       | d4( c) a c
       | b2. b4
       | d4( c) a c
-      | b2.
+      | b2. \break
         <<
           \new Voice = "verse" {
 	    \repeat volta 4 {

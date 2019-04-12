@@ -32,7 +32,8 @@
     | e c b a
     | b2 b4 e
     | e e c a
-    | b2. \mark \markup \large \bold "Chorus" s4 \bar "||" \break
+    | b2.
+    \hideNotes b4 \unHideNotes \bar "||" \break
     
     \mark "Verse 3"
     a4 a e' e
@@ -42,7 +43,8 @@
     | e2 c4( a)
     | b2. b4
     | e e c a
-    | b2. \mark \markup \large \bold "Chorus" s4 \bar "||" \break
+    | b2.
+    \hideNotes b4 \unHideNotes \bar "||" \break
   }
   \addlyrics {
     E -- chad mi yo -- de -- ah?
@@ -53,12 +55,12 @@
     
     Shna -- yim mi yo -- de -- ah?
     Shna -- yim a -- ni yo -- de -- ah.
-    Sh -- nei lu -- chot ha -- brit
+    Sh -- nei lu -- chot ha -- brit \markup \huge \bold (Chorus)
     
     Shlo -- shah mi yo -- de -- ah?
     Shlo -- shah a -- ni yo -- de -- ah.
     Shlo -- shah a -- vot
-    sh -- nei lu -- chot ha -- brit
+    sh -- nei lu -- chot ha -- brit \markup \huge \bold (Chorus)
   }
 >>
 

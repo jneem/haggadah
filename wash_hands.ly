@@ -11,13 +11,13 @@
     \partial 8 g8
     c8. c16 c8 c16 c c4.\fermata g16 g
     | c8. c16 c c b c d4\fermata e8( f)
-    | g2 r4 e8 f
-    | g2 r8 g8 f e 
-    | f2 r8 f d e
-    | f2 r8 f e d
-    | e2 r4 d4
-    | c( b) c2
-    | a4( b) c4.\fermata \bar "|."
+    | \time 3/4 g2 e8 f
+    | g4. g8 f e 
+    | f4. f8 d e
+    | f4. f8 e d
+    | e2 d4
+    | c8( b) c2
+    | \time 3/2 a2( b2) c2\fermata \bar "|."
   }
   \addlyrics {
     Ba -- ruch a -- tah A -- do -- nai,

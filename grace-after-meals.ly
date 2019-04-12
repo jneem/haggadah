@@ -2,6 +2,10 @@
 
 \include "defs.ly"
 
+\paper {
+  system-count = #9
+}
+
 <<
   \relative c' {
     \time 2/4

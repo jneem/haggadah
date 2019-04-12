@@ -2,6 +2,10 @@
 
 \include "defs.ly"
 
+\layout {
+  system-count = #10
+}
+
 <<
   \new Staff \relative c' {
     \partial 8 g8
@@ -15,11 +19,11 @@
     | a8 a16 a e'8( d16)\fermata \noBeam a16 c8 b16 a b8 b16 b
     | a8( g2.)\fermata g8
     | c8 c16 c \times 2/3 {c8 c c} \times 2/3 {d( c b } a) a
-    | \times 2/3 {a a a} e' d\fermata a a e' d\fermata
+    | \times 2/3 {a a a} e' d\fermata \bar "" a a e' d\fermata
     | \times 2/3 {c b a16 a} b8 a a g4\fermata g8
-    | c b16 c d d8\fermata d16 d8 c16 d e e8\fermata e16
+    | c b16 c d d8\fermata \bar "" d16 d8 c16 d e e8\fermata e16
     | e8 c f( e) d4.\fermata \times 2/3 {g,16 g g}
-    | c8( b16 c) d16 d d8\fermata d16 d8 c16 d e e8\fermata
+    | c8( b16 c) d16 d d8\fermata \bar "" d16 d8 c16 d e e8\fermata
     | e8 c f( e) d4.\fermata g,8
     | c8. c16 \times 2/3 {c8 b c} d4.\fermata d16 d
     | \times 2/3 {d8 e f} e c16 c \times 2/3 {d8( a b)} c\fermata

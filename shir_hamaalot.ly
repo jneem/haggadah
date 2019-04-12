@@ -7,6 +7,7 @@
 }
 
 <<
+  \transpose c b,
   \relative c' {
     \key c \minor
     c4( g'8) g f g16( as) g8. g16

@@ -1,5 +1,9 @@
 \version "2.13.1"
 
+\paper {
+  system-count = #4
+}
+
 \score {
   <<
     \new Voice \relative c' {

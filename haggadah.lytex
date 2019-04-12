@@ -3,7 +3,7 @@
 \usepackage{fontspec}
 \usepackage{polyglossia}
 \usepackage{graphicx}
-\usepackage[letterpaper, margin=1.4in, top=0.8in, bottom=0.8in]{geometry}
+\usepackage[letterpaper, margin=1.1in, top=0.8in, bottom=0.8in]{geometry}
 \usepackage{multicol}
 %\newfontfamily\hebrewfont[Script=Hebrew]{SBL Hebrew}% or{SBL Hebrew}
 \setmainlanguage{english}
@@ -39,8 +39,8 @@
 \normalsize
 
 % Start each section on a new page.
-\let\stdsection\section
-\renewcommand\section{\newpage\stdsection}
+%\let\stdsection\section
+%\renewcommand\section{\newpage\stdsection}
 
 \setcounter{tocdepth}{1}
 
@@ -48,24 +48,24 @@
 
 \begin{titlepage}
 \begin{center}
-\vspace*{10em}
-\HRule \\[0.4cm]
-{ \Huge \bfseries Haggadah }\\[0.4cm]
+\HRule \\[0.6cm]
+{ \Huge \bfseries Haggadah }\\[0.5cm]
 
-\HRule \\[1.5cm]
+\HRule \\[0.5cm]
 
-{ \large Edited by Miriam Blatt and Joe Neeman } \\[0.4cm]
-2018
+{ \large Edited by Miriam Blatt and Joe Neeman, 2018 }
 \end{center}
-\end{titlepage}
 
 {
-\setlength\parskip{-10pt}
+\def\contentsname{}
+\setlength\parskip{-12pt}
 \addtocontents{toc}{\vspace{1em}}
 \small
 \tableofcontents
 }
+\end{titlepage}
 
+\newpage
 \section{Moment of silence}
 Let us begin with a few moments silence to think of our
 friends and family we would like to be here to share this
@@ -88,11 +88,12 @@ light candles on the Sabbath and all our festivals.
 \section{Seder plate}
 \includegraphics[width=\textwidth]{sederplate}
 
+\newpage
 \section{``Seder'' means Order}
 
 Recite together the traditional order:
 
-\vspace{4em}
+\vspace{1em}
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -115,16 +116,13 @@ Recite together the traditional order:
 \texthebrew{נִרְצָה} & \textsc{Nirtzah} & Complete the seder
 \end{tabular}
 
-\vspace{4em}
+\vspace{1em}
 
-Ur'chatz washing the hands is in preparation for dipping the
+(Ur'chatz is in preparation for dipping the
       karpas in salt water.
-
-Rochtzah washing the hands is in preparation for the meal,
-      and requires the traditional blessing for washing hands.
+Rochtzah is in preparation for the meal,
+      and requires the traditional blessing for washing hands.)
 \end{center}
-
-\newpage
 
 %Here is the (non-traditional) order of our seder:
 
@@ -184,6 +182,8 @@ the fruit of the vine.
 
 \lilypondfile{wine.ly}
 
+\vspace{2in}
+
 \subsection*{Thanksgiving for Passover and other festivals}
 
 \begin{quote}
@@ -196,22 +196,19 @@ We join to remember our last night of slavery and our Exodus from Egypt.
 We give thanks to you, O Lord our God, who blesses Israel and her festivals.
 \end{quote}
 
+%\vspace{0.5cm}
 \newpage
 
-\begin{lilypond}
-\include "bachar_banu.ly"
-\end{lilypond}
+\lilypondfile{bachar_banu.ly}
 
-\newpage
-
-\subsection*{Thanksgiving for life}
+\subsection*{Thanksgiving for living long enough to be here celebrating this Seder}
 
 \begin{quote}
 We give thanks to you, O Lord our God, ruler of the universe,
 who has given us life, sustained us, and enabled us to reach this season.
 \end{quote}
 
-\par\vspace{0.5cm}
+%\par\vspace{0.5cm}
 
 \lilypondfile{shehecheyanu_miriam.ly}
 
@@ -229,11 +226,11 @@ Blessed are you, Lord our God, King of the Universe, who creates
 the fruit of the earth.
 \end{quote}
 
-\par\vspace{0.5cm}
+%\par\vspace{0.5cm}
 
 \lilypondfile{earth.ly}
 
-\par\vspace{0.5cm}
+%\par\vspace{0.5cm}
 
 Why do we eat karpas?
 The parsley is to remind us of the bitterness of slavery.
@@ -248,16 +245,19 @@ and set aside to keep it safe from the children. It is needed
 at the end of the meal, when the children (if they hid it elsewhere)
 will exchange it for a gift.
 
-\par\vspace{5mm}
+\vspace{0.5em}
 
-The leader raises the matzah and says:
+\noindent The leader raises the matzah and says:
 
+\begingroup
+\addtolength\leftmargini{-0.2in}
+%\addtolength\rightmargini{-1.3in}
 \begin{quote}
 \begin{flushleft}
 This is the bread of poverty our forefathers ate in the land of Egypt. \\
 Let those who are hungry eat. \\
 Let those in need share our seder. \\
-\vspace{1em}
+\vspace{0.5em}
 This year we are slaves. \\
 This year there is war and oppression. \\
 Next year may we be free. \\
@@ -265,6 +265,7 @@ Next year may the world be at peace,
 with freedom, justice and prosperity for all.
 \end{flushleft}
 \end{quote}
+\endgroup
 
 \section{Dedication}
 Tonight's seder is dedicated to the dream and hope of freedom, the dream
@@ -286,9 +287,15 @@ On all other nights, we eat in an ordinary manner; tonight we eat
 with special ceremony.
 \end{flushleft}
 
-\newpage
+\vspace{2cm}
 
+\def\betweenLilyPondSystem#1{
+\ifnum#1<3{\vspace{0.7in} \newline}\else\newline\fi
+}
 \lilypondfile{ma_nishtana.ly}
+\undef\betweenLilyPondSystem
+
+\newpage
 
 \section{Answers to the four questions}
 \subsection*{Why do we eat only matzah tonight?}
@@ -336,6 +343,7 @@ For the child who does not know how to ask a question, say
 Egypt.''
 
 \section{The Passover story}
+\vspace{-0.5em}
 We were slaves to Pharaoh in Egypt. The Lord our God delivered us with
 a mighty hand and an outstretched arm. Had he not brought our forefathers
 out of Egypt, then we, our children, and our children's children would
@@ -344,7 +352,8 @@ Therefore we must tell this story each year to remind us
 what freedom means and to strengthen our resolve to seek it for ourselves and
 for others.
 
-\subsection{The traditional story}
+\subsubsection*{The traditional story}
+\vspace{-0.5em}
 
 Jacob, grandson of Abraham, lived in the land of Canaan where there was
 severe famine. Jacob's son Joseph served the Pharaoh in Egypt and offered
@@ -375,7 +384,8 @@ The Pharaoh symbolizes all tyrants. We read the Passover story to
 remember every emancipation, and to look forward to a time when all
 the world will live in peace and freedom.
 
-\subsection{The story, as told by Ruth Bader Ginsburg}
+\subsubsection*{The story, as told by Ruth Bader Ginsburg}
+\vspace{-0.5em}
 
 On Passover, Jews are commanded to tell the story of the Exodus and to see
 ourselves as having lived through that story, so that we may better learn how
@@ -445,25 +455,44 @@ is named.
 
 \lilypondfile{dahm.ly}
 
+\newpage
+
 \section{Songs}
 \subsection*{Avadim Hayenu}
 We were slaves, now we are free.
 
+\vspace{0.5cm}
+
+\def\betweenlilypondsystem#1{\vspace{0.5em} \newline}
 \lilypondfile{avadim_hayenu.ly}
+\undef\betweenLilyPondSystem
 
 \subsection*{Baruch Hamakom}
 Blessed be the Lord, blessed is He, who gave the Torah to his people Israel.
 
+\vspace{0.5cm}
+
+\def\betweenlilypondsystem#1{\vspace{0.5em} \newline}
 \lilypondfile{baruch_hamakom.ly}
+\undef\betweenLilyPondSystem
+
+\newpage
 
 \subsection*{Vehi Sheamda}
 And this is what stood by our ancestors and us: every generation someone wants to annihilate us, but the Holy One saves us from them.
 
+\vspace{0.5cm}
+
+\def\betweenLilyPondSystem#1{\vspace{0.5em} \newline}
 \lilypondfile{vhee_sheamda.ly}
+\undef\betweenLilyPondSystem
 
 \newpage
 \subsection*{Go down, Moses}
+
+\def\betweenLilyPondSystem#1{\vspace{0.5em} \newline}
 \lilypondfile{go_down_moses.ly}
+\undef\betweenLilyPondSystem
 
 \section{Dayenu}
 
@@ -499,10 +528,19 @@ How manifold and miraculous are the great deeds that our God has
 performed for us, from taking us out of Egypt to building the Temple.
 \end{flushleft}
 
+\newpage
+
 \lilypondfile{dayenu_miriam.ly}
 
+\vspace{10em}
+\hrule
+\vspace{1em}
 \section{Short break to warm up food}
+\vspace{1em}
+\hrule
+\vspace{2em}
 
+\newpage
 \section{The three symbols of Passover: Shank bone, matzah, maror}
 Raise the shank bone and say:
 \begin{quote}
@@ -528,7 +566,9 @@ and brick, in all manner of work in the field, with crushing labor.
 \section{V'nomar lafanav}
 And we will recite before him a new song: Halleluyah!
 
-\def\betweenLilyPondSystem#1{\vspace{2em} \newline}
+\vspace{0.5em}
+
+\def\betweenLilyPondSystem#1{\vspace{1.5em} \newline}
 
 \lilypondfile{vnomar_lafanav.ly}
 
@@ -536,12 +576,7 @@ And we will recite before him a new song: Halleluyah!
 
 \section{Halleluyah}
 
-\begin{lilypond}
-\include "haleluyah-miriam.ly"
-\paper {
-  system-count = #6
-}
-\end{lilypond}
+\lilypondfile{haleluyah-miriam.ly}
 
 \section{Drink second cup}
 
@@ -560,10 +595,11 @@ who sanctifies us through your mitzvot and
 commands us to wash our hands.
 \end{quote}
 
-\vspace{3em}
+\vspace{1.5em}
 
 \lilypondfile{wash_hands.ly}
 
+\newpage
 \section{Motzi}
 
 This is the traditional prayer over bread, which is said
@@ -573,6 +609,8 @@ at the beginning of every meal.
 We give thanks to you, O Lord our God, ruler of the universe,
 who brings forth from the earth grain for bread.
 \end{quote}
+
+\vspace{1.5em}
 
 \lilypondfile{motzi.ly}
 
@@ -662,7 +700,15 @@ and bitter herbs shall they eat the paschal lamb.''
 
 All eat the Hillel sandwich.
 
+\newpage
+
+\hrule
+\vspace{1em}
 \section{The festive meal}
+\vspace{1em}
+\hrule
+\vspace{10em}
+
 
 \section{Afikoman}
 The afikoman is distributed to all for dessert. It is customary
@@ -672,28 +718,30 @@ There may be a need to trade something in return for it if
 the children have hidden the Afikoman, for without it the seder
 cannot continue.
 
+\newpage
 \section{Grace after meals}
-
-\lilypondfile{grace-after-meals.ly}
-
-\vspace{1em}
 
 Blessed are you the Lord our God, king of the world, who feeds the whole world out of his goodness, charity and kindness. He gives bread to all living creatures because his charity is boundless. And in his great bounty we never lacked food and may we never lack it. He is a nurturing god who feeds everyone.
 
-\subsection*{Na'ar hayiti}
+\vspace{0.5em}
+\lilypondfile{grace-after-meals.ly}
 
-\lilypondfile{naar_hayiti.ly}
-\vspace{1em}
+\subsection*{Na'ar hayiti}
 
 I was young and now I'm old, but I have never seen a virtuous man abandoned and his descendants wanting for bread.
 
-\newpage
+\vspace{0.5em}
+\lilypondfile{naar_hayiti.ly}
+
+\vspace{3in}
+
 \subsection*{Shir hama'alot}
 
-\lilypondfile{shir_hamaalot.ly}
-
-\vspace{1em}
 When God returned with us to Zion we were as in a dream, our mouths brimming with laughter, our tongues full of joy. And the nations said: God had done great things for them - God had done great things for us, and we were happy.
+\vspace{0.5em}
+
+\newpage
+\lilypondfile{shir_hamaalot.ly}
 
 \section{Drink third cup}
 
@@ -703,6 +751,8 @@ the fruit of the vine.
 \end{quote}
 
 \lilypondfile{wine.ly}
+
+\newpage
 
 \section{Elijah}
 The leader points to the cup for the Prophet Elijah and
@@ -733,11 +783,14 @@ Soon, in our time, may he come, bringing with him the Messiah.
 \subsection*{Kol rina}
 The voice of joy and salvation in the tents of the virtuous, God's right hand performs wonders on the battlefield.
 
+\vspace{0.5em}
+
 \lilypondfile{kol_rina.ly}
 
 \subsection*{Pitchu li}
 Open for me the gates of righteousness, I will go through them and thank the Lord.
 
+\vspace{0.5em}
 \lilypondfile{pitchu_li.ly}
 
 \newpage
@@ -745,6 +798,7 @@ Open for me the gates of righteousness, I will go through them and thank the Lor
 \subsection*{Chasal sidur pesach}
 The Seder is over, we performed it according to all the rules. As we have just prepared for the holiday, so let us celebrate it.
 
+\vspace{0.5em}
 \lilypondfile{chasal_sidur_pesach.ly}
 
 \subsection*{Karev yom}
@@ -752,6 +806,7 @@ The Seder is over, we performed it according to all the rules. As we have just p
 The day is approaching that is neither day nor night, praise the Almighty, both the day and night are yours.
 Set guards for your city for all day and all night, you will light up the night to be like the day.
 
+\vspace{0.5em}
 \lilypondfile{karev_yom.ly}
 \newpage
 \subsection*{Echad mi yodea?}
@@ -805,44 +860,6 @@ Thirteen are the attributes of God\dots
 
 \newpage
 
-\lilypondfile{echad_mi_yodea_miriam.ly}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\item Echad mi yodea? \\
-Echad ani yodea. \\
-Echad eloheinu\dots
-
-\item Shnayim mi yodea? \\
-Shnayim ani yodea. \\
-Shnei luchot habrit, \\
-Echad eloheinu\dots
-
-\item Shloshah mi yodea? \\
-Shloshah ani yodea. \\
-Shloshah avot, \\
-Shnei luchot habrit, \\
-Echad eloheinu\dots
-
-\item Arbah mi yodea? \\
-Arbah ani yodea. \\
-Arbah imahot, \\
-Shloshah avot, \\
-Shnei luchot habrit, \\
-Echad eloheinu\dots
-
-\item Chamishah chumshei Torah
-\item Shishah sidrei Mishnah
-\item Shiva y’mei shabatah
-\item Shmonah y’mei milah
-\item Tishah chodshei leidah
-\item Asarah dibraya
-\item Achad asar kochvaya
-\item Shnem asar shivtaya
-\item Shloshah asar midaya
-\end{enumerate}
-\end{multicols}
-
 \paragraph{Song instructions:}
 This works like ``12 nights of Xmas,'' except with 13 verses not 12. 
 Add a line to the chorus each time, beginning with the most recent 
@@ -889,12 +906,55 @@ One God in heaven and on earth.
 
 \newpage
 
+\lilypondfile{echad_mi_yodea_miriam.ly}
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item Echad mi yodea? \\
+Echad ani yodea. \\
+Echad eloheinu\dots
+
+\item Shnayim mi yodea? \\
+Shnayim ani yodea. \\
+Shnei luchot habrit, \\
+Echad eloheinu\dots
+
+\item Shloshah mi yodea? \\
+Shloshah ani yodea. \\
+Shloshah avot, \\
+Shnei luchot habrit, \\
+Echad eloheinu\dots
+
+\item Arbah mi yodea? \\
+Arbah ani yodea. \\
+Arbah imahot, \\
+Shloshah avot, \\
+Shnei luchot habrit, \\
+Echad eloheinu\dots
+
+\item Chamishah chumshei Torah
+\item Shishah sidrei Mishnah
+\item Shiva y’mei shabatah
+\item Shmonah y’mei milah
+\item Tishah chodshei leidah
+\item Asarah dibraya
+\item Achad asar kochvaya
+\item Shnem asar shivtaya
+\item Shloshah asar midaya
+\end{enumerate}
+\end{multicols}
+
+
+\newpage
+
+\def\betweenLilyPondSystem#1{\vspace{0.5em} \newline}
 \lilypondfile{echad_mi_yodea.ly}
+\undef\betweenLilyPondSystem
 
 \begin{multicols}{2}
 \begin{enumerate}
 \item Echad eloheinu
-\item Shnei luchot habrit
+\item Shnayim/Shnei luchot habrit
 \item Shloshah avot
 \item Arbah imahot
 \item Chamishah chumshei Torah
@@ -909,8 +969,7 @@ One God in heaven and on earth.
 \end{enumerate}
 \end{multicols}
 
-\newpage
-
+\vspace{2in}
 \subsection*{Adir hu}
 
 \begin{quote}
@@ -923,6 +982,8 @@ Chosen, great, renowned is He! May He build His temple soon, etc.
 
 Glorious, faithful, pure is He! May He build His temple soon, etc.
 \end{quote}
+
+\newpage
 
 \lilypondfile{adir_hu2.ly}
 
@@ -957,8 +1018,9 @@ All-pure in kingship, powerful as of right; to Him His courtiers sing, etc.
 \lilypondfile{ki_lo_naeh.ly}
 
 \newpage
-
 \subsection*{Bashana haba'a}
+
+\vspace{0.5in}
 
 \begin{quote}
 Next year we'll sit around on the porch and count migratory birds.
@@ -966,7 +1028,11 @@ Kids on vacation will play tag between the house and the fields.
 You will see, you will see, how wonderful it will be next year.
 \end{quote}
 
+\vspace{0.5in}
+
+\def\betweenLilyPondSystem#1{\vspace{1em} \newline}
 \lilypondfile{bashana_habaa.ly}
+\undef\betweenLilyPondSystem
 
 \newpage
 
@@ -986,6 +1052,8 @@ shall they study war any more.
 
 \lilypondfile{lo_yisa_goy.ly}
 
+\newpage
+
 \section{Closing}
 
 Now we come to the close of our seder.
@@ -993,6 +1061,8 @@ Now we come to the close of our seder.
 We have retold the story of Israel's liberation from bondage, and
 rededicated ourselves to the cause of freedom for all.
 Let us look forward to celebrating again next year.
+
+\vspace{1in}
 
 \subsection*{L'shana haba'a}
 
@@ -1002,6 +1072,8 @@ Next year in Jerusalem (or more likely Menlo Park).
 
 \par\vspace{0.5cm}
 
+\def\betweenLilyPondSystem#1{\vspace{1em} \newline}
 \lilypondfile{lshana_habaa_miriam.ly}
+\undef\betweenLilyPondSystem
 
 \end{document}
