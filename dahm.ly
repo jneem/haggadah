@@ -6,9 +6,9 @@
   \new Staff \new Voice="melody" \relative c' {
     << {
         c( a2) r8 a16 a
+      | c4 a2 r4 
       | c4 a2 r4 \break
-      | c4 a2 r4
-      | c4 a2 r4 \break
+      | c4 a2 r4 
       | c4 a2 r4
       | c8 c( a2) r4 \break
       | c4 a2 r4
